@@ -28,7 +28,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="runserver.py" />
+    <EntityDeploy Include="runserver.py">
+      <Publish>True</Publish>
+    </EntityDeploy>
     <Compile Include="PiScan\__init__.py" />
     <Compile Include="PiScan\views.py" />
   </ItemGroup>
